@@ -1,6 +1,6 @@
 from pistream import Server
 
-Server.init()
+Server.init("172.17.17.120", 9999)
 
 while True:
     Server.wait_for_connection()
