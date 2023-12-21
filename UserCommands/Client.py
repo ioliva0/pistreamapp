@@ -2,7 +2,7 @@ import cv2
 
 from pistream import Client
 
-Client.init()
+Client.init("172.17.17.120")
 
 Client.request_disable_timeout()
 
